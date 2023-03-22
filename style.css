@@ -1,17 +1,18 @@
 body{
-	background: #CCCCCC;
+	background: #777777;
 }
 p,.centralizar{
 	text-align: center;
 }
 em strong{
-	color: #FF0000;
+	color: #000000;
 }
 h1,h2{
-	color: #0000FF;
+	color: #0b0b0c;
 }
 #banner {
     width: 100%;
+	height: 85%;
 }
 .items{
 		font-style: italic;
