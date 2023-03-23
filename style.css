@@ -17,6 +17,8 @@ h1,h2{
 .items{
 		font-style: italic;
 		list-style:  none;
+		padding: 1%;
+		margin-left: 50%;
 }
 #beneficios{
 		width: 50%;
@@ -26,4 +28,10 @@ ul{
 	width: 20%;
 	margin-right: 15%;
 	vertical-align:top;
+	margin-top: 5%;
+}
+.subtitulo{
+	display: flex;
+	margin-left: 12%;
+	margin-top: ;
 }
