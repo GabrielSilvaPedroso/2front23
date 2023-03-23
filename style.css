@@ -8,7 +8,13 @@ em strong{
 	color: #000000;
 }
 h1,h2{
-	color: #0b0b0c;
+	color: #b90000;
+}
+ul{
+	color: #000000;
+}
+p{
+	color: rgb(233, 227, 227);
 }
 #banner {
     width: 100%;
@@ -17,8 +23,8 @@ h1,h2{
 .items{
 		font-style: italic;
 		list-style:  none;
-		padding: 1%;
-		margin-left: 50%;
+		margin-left: 40%;
+		font-size: 20px;
 }
 #beneficios{
 		width: 50%;
@@ -26,12 +32,10 @@ h1,h2{
 ul{
 	display: inline-block;
 	width: 20%;
-	margin-right: 15%;
+	margin-right: 5%;
 	vertical-align:top;
-	margin-top: 5%;
 }
 .subtitulo{
 	display: flex;
-	margin-left: 12%;
-	margin-top: ;
+	margin-left: 10%;
 }
