@@ -1,5 +1,5 @@
 body{
-    background-color: #ffffff;
+    background-color: #000000;
 }
 nav li{
     display: inline-block;
@@ -11,4 +11,16 @@ nav li a{
     font-size: 22px;
     font-weight: bold;
     text-transform: uppercase;
+}
+header{
+    background: #ffffff;
+    padding: 20px;
+}
+.content{
+    width: 940px;
+    margin:0 auto;
+}
+nav{
+    float: right;
+    margin-top: 60px;
 }

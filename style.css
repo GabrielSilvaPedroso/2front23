@@ -1,5 +1,5 @@
 body{
-	background: #777777;
+	background: #ffffff;
 }
 p,.centralizar{
 	text-align: center;
@@ -14,7 +14,7 @@ ul{
 	color: #000000;
 }
 p{
-	color: rgb(233, 227, 227);
+	color: rgb(0, 0, 0);
 }
 #banner {
     width: 100%;
