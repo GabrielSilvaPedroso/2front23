@@ -72,3 +72,20 @@ footer{
 main{
     margin-bottom: 90px;
 }
+form{
+    margin: 30px 0;
+}
+label{
+    font-size: 18px;
+    width: 80px;
+    display: inline-block;
+}
+input{
+    padding: 5px 10px;
+    width: 50%;
+}
+button{
+    display: inline-block;
+    width: 150px;
+    padding: 5px;
+}
