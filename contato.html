@@ -24,23 +24,50 @@
     </header>
      <main> 
         <div class="content">
-            <hi> FALE COM A GENTE</hi>
+            <h1>FALE COM A GENTE!</h1>
             <p>
                 <b>TELEFONE: </b> (44)997059186 <br>
                 <b>E-EMAIL: </b> silva.pedroso.gabriel@escola.pr.gov.br <br>
                 <b>ENDEREÇO: </b> Rua 14 de Novembro<br>
             </p>
             <form action="">
-            <b>
                 <label for="nome">NOME:</label>
                 <input type="text" id="nome" name="nome" placeholder="Insira seu nome">
             <br>
-            <b>
                 <label for="email">E-MAIL:</label>
                 <input type="email" id="email" name="email" placeholder="Insira seu e-mail">
-            <b>
+            <br>
+                <label for="phone">TELEFONE:</label>
+                <input type="text" id="phone" name="phone" placeholder="Insira seu telefone">
+            <br>
+            <p>COMO DESEJA RECEBER NOSSO CONTATO?</p>
+            <br>
+            <label for="whatsapp">
+            <input type="radio" value="whatsapp" name="contato" id="whatsapp">
+                WhatsApp
+            </label>
+            <label for="ligacao">
+                <input type="radio" value="ligacao" name="contato" id="ligacao">
+                Ligação
+            </label>
+            <label for="email">
+            <input type="radio" value="email" name="contato" id="email">
+                 E-mail
+            </label>
+            <br>
+            <p>QUAL MELHOR HORÁRIO?</p>
+            <select name="horario">
+                <option value="manha">Manha</option>
+                <option value="tarde">Tarde</option>
+                <option value="noite">Noite</option>
+            </select>
+            <br>
                 <button type="submit"> Enviar Mensagem</button>
             </form>
+            <div class="mapa">  
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2165.6709404002568!2d-54.256363730907765!3d-24.094114278662172!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94f4affc1f819183%3A0x4becccc2fa90e209!2sRua%2014%20de%20Novembro%20-%20Gua%C3%ADra%2C%20PR%2C%2085980-000!5e0!3m2!1spt-BR!2sbr!4v1683559286633!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+       
         </div>
     </main>
     <footer>
